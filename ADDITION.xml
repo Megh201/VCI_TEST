@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V17" />
   <DocumentInfo>
-    <Created>2025-12-08T09:05:16.7115471Z</Created>
+    <Created>2025-12-08T12:10:26.7684921Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -55,10 +55,18 @@
       <HeaderName />
       <HeaderVersion>0.1</HeaderVersion>
       <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
-  <Section Name="Input" />
-  <Section Name="Output" />
+  <Section Name="Input">
+    <Member Name="A" Datatype="Int" Accessibility="Public" />
+    <Member Name="B" Datatype="Int" Accessibility="Public" />
+    <Member Name="C" Datatype="Int" Accessibility="Public" />
+  </Section>
+  <Section Name="Output">
+    <Member Name="RESULT" Datatype="Int" Accessibility="Public" />
+  </Section>
   <Section Name="InOut" />
-  <Section Name="Temp" />
+  <Section Name="Temp">
+    <Member Name="OUT" Datatype="Int" />
+  </Section>
   <Section Name="Constant" />
   <Section Name="Return">
     <Member Name="Ret_Val" Datatype="Void" Accessibility="Public" />
@@ -88,32 +96,32 @@
         <AttributeList>
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
   <Parts>
-    <Access Scope="GlobalVariable" UId="21">
+    <Access Scope="LocalVariable" UId="21">
       <Symbol>
         <Component Name="A" />
       </Symbol>
     </Access>
-    <Access Scope="GlobalVariable" UId="22">
+    <Access Scope="LocalVariable" UId="22">
       <Symbol>
         <Component Name="B" />
       </Symbol>
     </Access>
-    <Access Scope="GlobalVariable" UId="23">
+    <Access Scope="LocalVariable" UId="23">
       <Symbol>
         <Component Name="OUT" />
       </Symbol>
     </Access>
-    <Access Scope="GlobalVariable" UId="24">
+    <Access Scope="LocalVariable" UId="24">
       <Symbol>
         <Component Name="OUT" />
       </Symbol>
     </Access>
-    <Access Scope="GlobalVariable" UId="25">
+    <Access Scope="LocalVariable" UId="25">
       <Symbol>
         <Component Name="C" />
       </Symbol>
     </Access>
-    <Access Scope="GlobalVariable" UId="26">
+    <Access Scope="LocalVariable" UId="26">
       <Symbol>
         <Component Name="RESULT" />
       </Symbol>
