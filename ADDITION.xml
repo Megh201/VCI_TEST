@@ -110,7 +110,7 @@
     </Access>
     <Access Scope="GlobalVariable" UId="25">
       <Symbol>
-        <Component Name="A" />
+        <Component Name="C" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="26">
