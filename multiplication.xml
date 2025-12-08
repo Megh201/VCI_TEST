@@ -56,8 +56,8 @@
       <HeaderVersion>0.1</HeaderVersion>
       <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
   <Section Name="Input">
-    <Member Name="mul_1" Datatype="Int" Accessibility="Public" />
-    <Member Name="mul_2" Datatype="Int" Accessibility="Public" />
+    <Member Name="input_1" Datatype="Int" Accessibility="Public" />
+    <Member Name="input_2" Datatype="Int" Accessibility="Public" />
   </Section>
   <Section Name="Output" />
   <Section Name="InOut" />
@@ -93,12 +93,12 @@
   <Parts>
     <Access Scope="LocalVariable" UId="21">
       <Symbol>
-        <Component Name="mul_1" />
+        <Component Name="input_1" />
       </Symbol>
     </Access>
     <Access Scope="LocalVariable" UId="22">
       <Symbol>
-        <Component Name="mul_2" />
+        <Component Name="input_2" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="23">
