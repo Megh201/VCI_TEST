@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V17" />
   <DocumentInfo>
-    <Created>2025-12-08T08:51:40.1475669Z</Created>
+    <Created>2025-12-08T09:01:12.6500275Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -55,7 +55,10 @@
       <HeaderName />
       <HeaderVersion>0.1</HeaderVersion>
       <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
-  <Section Name="Input" />
+  <Section Name="Input">
+    <Member Name="mul_1" Datatype="Int" Accessibility="Public" />
+    <Member Name="mul_2" Datatype="Int" Accessibility="Public" />
+  </Section>
   <Section Name="Output" />
   <Section Name="InOut" />
   <Section Name="Temp" />
@@ -88,14 +91,14 @@
         <AttributeList>
           <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
   <Parts>
-    <Access Scope="GlobalVariable" UId="21">
+    <Access Scope="LocalVariable" UId="21">
       <Symbol>
-        <Component Name="Input_1" />
+        <Component Name="mul_1" />
       </Symbol>
     </Access>
-    <Access Scope="GlobalVariable" UId="22">
+    <Access Scope="LocalVariable" UId="22">
       <Symbol>
-        <Component Name="Input_2" />
+        <Component Name="mul_2" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="23">
