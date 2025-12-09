@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V17" />
   <DocumentInfo>
-    <Created>2025-12-08T12:03:56.9417519Z</Created>
+    <Created>2025-12-09T05:29:56.3966902Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -58,9 +58,10 @@
   <Section Name="Input">
     <Member Name="input_1" Datatype="Int" Accessibility="Public" />
     <Member Name="input_2" Datatype="Int" Accessibility="Public" />
+  </Section>
+  <Section Name="Output">
     <Member Name="RESULTS" Datatype="Int" Accessibility="Public" />
   </Section>
-  <Section Name="Output" />
   <Section Name="InOut" />
   <Section Name="Temp" />
   <Section Name="Constant" />
